@@ -31,6 +31,7 @@ const start = async () => {
   startScheduler();
   app.listen(PORT, () => {
     console.log(`📡 Server listening on http://localhost:${PORT}`);
+    console.log(`ℹ️ API Version: 1.1`);
   });
 };
 
